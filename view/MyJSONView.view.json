@@ -1,0 +1,16 @@
+{
+	"Type": "sap.ui.core.mvc.JSONView",
+	"controllerName": "sap.training.exc04.views.view.MyJSONView",
+	"content": [
+		{
+			"Type": "sap.m.Text",
+			"text": "Text auf JSON View"
+	},
+		{
+			"Type": "sap.m.CheckBox",
+			"id": "idCheckBox",
+			"text": "Nein",
+			"select": "onCBSelect"
+
+	}]
+}
